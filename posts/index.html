@@ -19,7 +19,7 @@
     <!-- Page-specific CSS -->
     <link rel="stylesheet" href="./posts.css">
 
-    <title>/POSTS</title>
+    <title>POSTS</title>
 
     <!-- Run BEFORE page is finished loading (before window.onload): -->
     <script src="../auth.js"></script>
@@ -30,12 +30,23 @@
 <body>
 
     <header>
+        <nav>
         <h1>POSTS PAGE</h1>
+        <a href="javascript:logout()">Logout</a>
+        <a href="../profile/profile.html">My Profile</a>
+        </nav>
     </header>
+    <div id="postForm">
+        <input type="text" id="messageTxt" placeholder="Enter Message">
+        <button id="postBtn">Post Message</button>
+    </div>
+    <main>
+        <div id="messagesOutput">
+            ???
+        </div>
+    </main>
 
-    <main></main>
-
-    <footer></footer>
+    <footer>&copy;2024</footer>
 
     <!-- Page-specific code -->
     <script src="./posts.js"></script>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,36 +24,36 @@
     <!-- Run BEFORE page is finished loading (before window.onload - don't add the `defer` attribute): -->
     <script src="./auth.js"></script>
     <script>
-        if (isLoggedIn() === true) window.location.replace("/posts");
+        //if (isLoggedIn() === true) window.location.replace("/posts");
     </script>
 </head>
+
 <body>
 
     <header>
-        <h1>Welcome to <code>YOUR MICROBLOG NETWORK</code></h1>
+        <h1>Welcome to... <code>YOUR MICROBLOG NETWORK!</code></h1>
     </header>
 
     <main>
 
         <form id="login">
-            <div>
-                <label for="username">Username</label>
-                <input type="text" id="username" minlength="3">
+            <div id="userDiv">
+                <input type="text" id="username" minlength="3" placeholder="Username">
             </div>
-
-            <div>
-                <label for="password">Password</label>
-                <input type="password" id="password" minlength="6">
+            <div id="passDiv">
+                <input type="password" id="password" minlength="6" placeholder="Password">
             </div>
+    
 
-            <button id="loginButton" type="submit">Login</button>
         </form>
-
+        <a href="./register/register.html">Sign Up</a>
+        <button id="loginButton" type="submit">Login</button>
     </main>
 
-    <footer></footer>
+    <footer>&copy;2024</footer>
 
     <!-- Page-specific code -->
     <script src="./landing.js"></script>
 </body>
+
 </html>
