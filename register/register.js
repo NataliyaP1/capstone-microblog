@@ -1,3 +1,7 @@
+
+"use strict"
+
+
 function register() {
     return fetch(apiBaseURL + "/api/users", {
         method: "POST",
@@ -10,8 +14,7 @@ function register() {
             fullName: fullname.value,
             password: password.value
         })
-    }).then(() => location = "/"); //TODO check for failure
-    if (isLoggedIn() === true) window.location.replace("/posts");
+    }).then(() => location = "/api/users"); 
 }
 
-registerButton.addEventListener("click", register)
+registerBtn.addEventListener("click", register);

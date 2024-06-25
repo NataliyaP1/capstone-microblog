@@ -16,3 +16,12 @@
 :root {
     font-size: 1rem;
 }
+
+footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 90px;
+}

@@ -1,23 +1,23 @@
-
-function getInfo(info){
-    return `
-    
-    <h1>Username: ${info.username}</h1>
-    <h3>Bio: ${info.bio}</h3>
-    
-    `
+const loginData = loginData();
+function showProfile(user){
+    profileBio.value = user.bio;
+    profileName.innerHTML = user.bio;
 }
+profilePost.addEventListener("click", () => {
+    fetch(apiBaseUrl + "/api/users/" + loginData.username, {
+            method:"POST",
+            headers: { 
+                Authorization: `Bearer ${loginData.token}`,
+            },
+            body: JSON.stringify({
+                 bio: profileBio.value
+    })
 
-function showInfo(){
-    profileInfo.innerHTML = info.map(getInfo);
-}
+    }).then(r => location = "/profile/profile.html/")
 
-
-
-fetch(apiBaseURL + "/api/users/getser" , {
-    method: "GET",
-    headers: { Authorization: `Bearer ${localStorage.token}` }
 })
-.then(info=>{
-    showInfo(info)
-});
+fetch (apiBaseUrl + "/api/users/" + loginData.username,{
+    headers:{
+        Authorization: `Bearer ${loginData.token}`
+    },
+}).then(r => r.json()).then(showProfile)

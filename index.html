@@ -30,26 +30,34 @@
 
 <body>
 
-    <header>
-        <h1>Welcome to... <code>YOUR MICROBLOG NETWORK!</code></h1>
-    </header>
+    <nav>
+        <img src="https://cdn.pixabay.com/photo/2015/12/07/22/53/paper-planes-1081560_960_720.png" alt="logo"> 
+        <h1>Tech Talk</h1>
+    </nav>
 
-    <main>
+    <h2>Login</h2>
+    <div id="wrapper2">
+<div class="wrapper">
 
-        <form id="login">
-            <div id="userDiv">
+        <form id="login" class="">
+            
+            <div id="userDiv" class="">
                 <input type="text" id="username" minlength="3" placeholder="Username">
             </div>
-            <div id="passDiv">
+           
+            <div id="passDiv" >
                 <input type="password" id="password" minlength="6" placeholder="Password">
             </div>
-    
+            
+            Don't have an account? <a href="./register/register.html">Sign Up</a>
+            <br>
+            <button id="loginButton" type="submit">Login</button>
 
         </form>
-        <a href="./register/register.html">Sign Up</a>
-        <button id="loginButton" type="submit">Login</button>
-    </main>
-
+        
+    </div>
+</div>
+<br>
     <footer>&copy;2024</footer>
 
     <!-- Page-specific code -->

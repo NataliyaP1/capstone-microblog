@@ -1,1 +1,121 @@
 /* Posts Page CSS */
+img{
+    float: left;
+    max-width: 80px;
+    position: relative;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+h1{
+    color: white;
+    font-style: italic;
+    margin-top: -30px;
+}
+
+body{
+    background-image: url(../images/IMG_2263.jpg);
+    background-blend-mode:multiply;
+    color: aqua;
+}
+
+nav a {
+    float: right;
+    color: white;
+    margin-top: 0px;
+    padding: 30px 70px;
+    margin-top: -70px;
+    text-decoration: none;
+}
+
+.logout:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.myProfile:hover{
+
+    color: rgb(141, 148, 156);
+}
+
+
+nav{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.952),rgba(0, 0, 0, 0.952) 100%);
+    padding: 50px;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+}
+
+h2{
+    font-size: 40px;
+    color: white;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 90px;
+    text-decoration: underline;
+}
+
+body{
+    color: white;
+
+}
+
+#messageTxt{
+    border-radius: 10px;
+    font-size: 30px;
+    margin-bottom: 70px;
+    padding-right: 62%;
+    padding-left: 30px;
+    margin-left: 20px;
+    
+}
+
+#postBtn{
+    float: right;
+    margin-right: 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+}
+
+#postBtn:hover{
+
+    background-color:  rgb(86, 86, 88);
+    color: white;
+}
+
+.message{
+    background-color: rgb(179, 179, 179);
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 90px;
+    padding: 50px;
+    margin: 50px 90px 60px 50px;
+    display: flex;
+    flex-direction: column;
+    color: black; 
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.63);
+}
+
+ #likeBtn2{
+    float: right;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+h3 {
+font-size: 40px;
+display: flex;
+justify-content: center;
+}
+
+.likes{
+    color: rgb(196, 61, 43);
+    margin-left: 93%;
+
+}
+
+.username{
+    font-size: 30px;
+    text-decoration: underline;
+}

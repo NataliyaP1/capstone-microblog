@@ -1,20 +1,94 @@
 /* Landing Page CSS */
-form{
+.wrapper{
+    border: 1px solid black;
+    width: 30%;
+    padding: 28px;
     display: flex;
+    font-size: 25px;
     justify-content: center;
-    font-size: 2rem;
-    align-items: center;
-    padding: 5rem;
-    margin: 7rem;
-    border: 2px solid ;
-    flex-direction: column;
+    margin: 50px 30px;
+    border-radius: 10px;
+    background-color: rgba(33, 38, 46, 0.884);
+    box-shadow: 0px 2px 30px 10px rgb(0, 0, 0);
+    color: white;
 }
 
-div{
-    margin:30px;
+
+
+ #wrapper2{
+    display: flex;
+    justify-content: center;
+
+
+} 
+
+ #userDiv, #passDiv{
+    margin:0;
+    padding: 25px 0px 30px 26px;
+   
+   
+} 
+
+button{
+    height: 70px;
+    width: 350px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+
+input{
+    border-radius: 10px;
     
 }
-button{
-    width: 400px;
-    margin: 30px;
+
+#loginButton:hover{
+
+    background-color:  rgb(86, 86, 88);
+    color: white;
+
+}
+
+body{
+    background-image: url(images/IMG_2263.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.952),rgba(0, 0, 0, 0.952) 100%);
+    padding: 50px;
+    margin: 0;
+}
+
+h2{
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 25px;
+    text-decoration: underline;
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0.788);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+img{
+    float: left;
+    max-width: 80px;
+    position: relative;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+h1{
+    color: white;
+    font-style: italic;
+    margin-top: -30px;
 }
