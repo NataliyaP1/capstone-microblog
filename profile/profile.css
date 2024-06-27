@@ -21,7 +21,7 @@ h1{
 body{
     background-image: url(../images/IMG_2263.jpg);
     background-blend-mode:multiply;
-    color: aqua;
+    color: rgb(255, 255, 255);
 }
 
 nav a {
@@ -49,6 +49,32 @@ h2{
     padding-top: 150px;
     display: flex;
     justify-content: center;
-    padding-bottom: 90px;
+    padding-bottom: 30px;
     text-decoration: underline;
+}
+
+main{
+    background-color: rgba(114, 119, 122, 0.829);
+    margin: 20px;
+    padding:200px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 10px 10px rgba(0, 0, 0, 0.575);
+}
+
+input{
+    padding-right:560px;
+    padding-left: 20px;
+    font-size: 25px;
+    
+}
+
+button{
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+button:hover{
+    background-color:  rgb(86, 86, 88);
+    color: white;
 }

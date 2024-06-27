@@ -3,14 +3,7 @@
 * {
     /* Sizing helper: See Workbook 1b, page 2-33. */
     box-sizing: border-box;
-
-    /* 
-       Vizualization helper: While styling or debugging your HTML & CSS, 
-       uncomment the rule below to see all the boxes on your page more
-       clearly! (Remove this outline before submitting: users won't 
-       want to see it!)
-    */
-    /* outline: 1px dotted red; */
+     /*outline: 1px dotted red; */
 }
 
 :root {
@@ -24,4 +17,12 @@ footer{
     justify-content: center;
     padding: 50px;
     margin-top: 90px;
+}
+
+h1{
+    font-family:serif;
+}
+
+h2{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

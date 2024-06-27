@@ -41,7 +41,7 @@ nav a {
 nav{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.952),rgba(0, 0, 0, 0.952) 100%);
     padding: 50px;
-    margin: 0;
+    margin-top: -24px;
     position: fixed;
     width: 100%;
 }
@@ -86,13 +86,14 @@ body{
 }
 
 .message{
-    background-color: rgb(179, 179, 179);
+    background-color: rgba(194, 199, 255, 0.842);
     border: 1px rgb(0, 0, 0) solid;
-    border-radius: 90px;
+    border-radius: 30px;
     padding: 50px;
     margin: 50px 90px 60px 50px;
     display: flex;
     flex-direction: column;
+
     color: black; 
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.63);
 }

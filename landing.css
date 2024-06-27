@@ -67,8 +67,6 @@ h2{
     color: white;
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding-bottom: 25px;
     text-decoration: underline;
 }
 
@@ -91,4 +89,28 @@ h1{
     color: white;
     font-style: italic;
     margin-top: -30px;
+}
+
+#errorMsg{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+.about{
+    font-size: 25px;
+    float: right;
+    margin-top: -30px;
+    color: white;
+
+}
+.about:hover{
+    color: rgb(76, 81, 110);
 }

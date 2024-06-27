@@ -1,0 +1,57 @@
+body{
+    background-image: url(images/IMG_2263.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.952),rgba(0, 0, 0, 0.952) 100%);
+    padding: 50px;
+    margin: 0;
+}
+
+.title2{
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+img{
+    float: left;
+    max-width: 80px;
+    position: relative;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+#title{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    margin-top: -30px;
+}
+
+.login{
+    font-size: 25px;
+    float: right;
+    margin-top: -30px;
+    color: rgb(255, 255, 255);
+
+}
+.login:hover{
+    color: rgb(76, 81, 110);
+}
+
+.aboutUs{
+    border: 1px solid black;
+    width: 90%;
+    padding: 28px;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    margin: 50px 70px;
+    border-radius: 10px;
+    background-color: rgba(33, 38, 46, 0.884);
+    box-shadow: 0px 2px 30px 10px rgb(0, 0, 0);
+    color: white;
+}

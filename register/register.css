@@ -28,6 +28,11 @@ button{
 
 }
 
+button:hover{
+    background-color:  rgb(86, 86, 88);
+    color: white;
+}
+
 input{
     border-radius: 10px;
     

@@ -1,7 +1,3 @@
-
-"use strict"
-
-
 function register() {
     return fetch(apiBaseURL + "/api/users", {
         method: "POST",
@@ -10,11 +6,11 @@ function register() {
             "accept": "application/json"
         },
         body: JSON.stringify({
+            fullName: fullName.value,
             username: username.value,
-            fullName: fullname.value,
             password: password.value
         })
-    }).then(() => location = "/api/users"); 
+    }).then(() => location = "/"); 
 }
 
 registerBtn.addEventListener("click", register);
