@@ -1,5 +1,21 @@
-# Enjoy the Microblog Project and the MicroblogLite API!
+# Microblog Capstone Project!
 
-Don't forget to read the [*MicroblogLite* API docs](http://microbloglite.us-east-2.elasticbeanstalk.com/docs) and experiment with the API in *Postman!*
+## Login Page
 
-Practice and experimentation provide experience, and experience provides confidence.
+<img src="./images/LoginPage.PNG">
+
+## Register Page
+<img src="./images/RegisterPage.PNG">
+
+## About Page
+<img src="./images/AboutPage.PNG">
+
+## Posts Page
+<img src="./images/PostsPage.png">
+
+## Profile Page
+<img src="./images/ProfilePage.png">
+
+## Live Link
+<a href="https://nataliyap1.github.io/capstone-microblog/">https://nataliyap1.github.io/capstone-microblog/
+
